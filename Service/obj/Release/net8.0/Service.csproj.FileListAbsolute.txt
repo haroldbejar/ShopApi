@@ -1,0 +1,17 @@
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\bin\Release\net8.0\Service.deps.json
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\bin\Release\net8.0\Service.dll
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\bin\Release\net8.0\Service.pdb
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\bin\Release\net8.0\Domain.dll
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\bin\Release\net8.0\Repository.dll
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\bin\Release\net8.0\Domain.pdb
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\bin\Release\net8.0\Repository.pdb
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\obj\Release\net8.0\Service.csproj.AssemblyReference.cache
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\obj\Release\net8.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\obj\Release\net8.0\Service.AssemblyInfoInputs.cache
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\obj\Release\net8.0\Service.AssemblyInfo.cs
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\obj\Release\net8.0\Service.csproj.CoreCompileInputs.cache
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\obj\Release\net8.0\Service.csproj.Up2Date
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\obj\Release\net8.0\Service.dll
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\obj\Release\net8.0\refint\Service.dll
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\obj\Release\net8.0\Service.pdb
+D:\dotnet\ShopAppProject\SolutionShopApi\Service\obj\Release\net8.0\ref\Service.dll

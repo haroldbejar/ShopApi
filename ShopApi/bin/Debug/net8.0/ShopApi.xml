@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShopApi</name>
+    </assembly>
+    <members>
+        <member name="T:ShopApi.Controllers.CategoryController">
+            <summary>
+            Category Controller
+            </summary>
+        </member>
+        <member name="M:ShopApi.Controllers.CategoryController.#ctor(Service.Services.ICategoryService,Service.Services.IValidatorService{Domain.Entities.ProductCategory})">
+            <summary>
+            Constructor
+            </summary>
+            <param name="categoryService"></param>
+            <param name="validatorService"></param>
+        </member>
+        <member name="M:ShopApi.Controllers.CategoryController.GetAllCategoriesAsync(System.Int32,System.Int32)">
+            <summary>
+            Get All Categories
+            </summary>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <returns>All categories paginated</returns>
+        </member>
+        <member name="M:ShopApi.Controllers.CategoryController.GetCategoryByIdAsync(System.Int32)">
+            <summary>
+            Get Category by categoryId
+            </summary>
+            <param name="id"></param>
+            <returns>A category filter by cagtegoryId</returns>
+        </member>
+        <member name="M:ShopApi.Controllers.CategoryController.CreateCategoryAsync(Domain.DTOs.CategoryDTO)">
+            <summary>
+            Create Categoy
+            </summary>
+            <param name="categoryDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApi.Controllers.CategoryController.UpdateCategoryAsync(Domain.DTOs.CategoryDTO,System.Int32)">
+            <summary>
+            Update Category
+            </summary>
+            <param name="categoryDTO"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApi.Controllers.CategoryController.DeleteCategoryAsync(System.Int32)">
+            <summary>
+            Delete Category
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ShopApi.Controllers.CustomerController">
+            <summary>
+            Customer Controller
+            </summary>
+        </member>
+        <member name="M:ShopApi.Controllers.CustomerController.#ctor(Service.Services.ICustomerService,Service.Services.IValidatorService{Domain.Entities.Order})">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:ShopApi.Controllers.CustomerController.GetAllProductsAsync(System.Int32,System.Int32)">
+            <summary>
+            Get All Customers
+            </summary>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <returns>All customers paginated</returns>
+        </member>
+        <member name="M:ShopApi.Controllers.CustomerController.GetCustomerByIdAsync(System.Int32)">
+            <summary>
+            Get Customer By CustomerId
+            </summary>
+            <param name="id"></param>
+            <returns>A customer filter by CustomerId</returns>
+        </member>
+        <member name="M:ShopApi.Controllers.CustomerController.CreateCustomerAsync(Domain.DTOs.CustomerDTO)">
+            <summary>
+            Create Customer
+            </summary>
+            <param name="customerDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApi.Controllers.CustomerController.UpdateCustomerAsync(Domain.DTOs.CustomerDTO,System.Int32)">
+            <summary>
+            Update Customer
+            </summary>
+            <param name="customerDTO"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApi.Controllers.CustomerController.DeleteProductAsync(System.Int32)">
+            <summary>
+            Delete Customer
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ShopApi.Controllers.OrderController">
+            <summary>
+            Order Controller
+            </summary>
+        </member>
+        <member name="M:ShopApi.Controllers.OrderController.#ctor(Service.Services.IOrderService,Service.Services.IValidatorService{Domain.Entities.OrderDetail})">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:ShopApi.Controllers.OrderController.GetAllOrdersAsync(System.Int32,System.Int32)">
+            <summary>
+            Get All Categories
+            </summary>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <returns>All Orders paginated</returns>
+        </member>
+        <member name="M:ShopApi.Controllers.OrderController.GetOrderByIdAsync(System.Int32)">
+            <summary>
+            Get Order by orderId
+            </summary>
+            <param name="id"></param>
+            <returns>A order filter by orderId</returns>
+        </member>
+        <member name="M:ShopApi.Controllers.OrderController.GetOrderByCustumerIdAsync(System.Int32)">
+            <summary>
+            Get Orders by customerId
+            </summary>
+            <param name="id"></param>
+            <returns>Orders filter by customerId</returns>
+        </member>
+        <member name="M:ShopApi.Controllers.OrderController.CreateOrderAsync(Domain.DTOs.OrderDTO)">
+            <summary>
+            Create Order
+            </summary>
+            <param name="orderDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApi.Controllers.OrderController.CreateOrderDetailAsync(System.Collections.Generic.List{Domain.DTOs.OrderDetailsViewModel})">
+            <summary>
+            Create Order and detials 
+            </summary>
+            <param name="orderDetials"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApi.Controllers.OrderController.UpdateOrderAsync(Domain.DTOs.OrderDTO,System.Int32)">
+            <summary>
+            Update Order
+            </summary>
+            <param name="orderDTO"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApi.Controllers.OrderController.DeleteOrderAsync(System.Int32)">
+            <summary>
+            Delete Order
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ShopApi.Controllers.OrderDetailController">
+            <summary>
+            OrderDetail Controller
+            </summary>
+        </member>
+        <member name="M:ShopApi.Controllers.OrderDetailController.#ctor(Service.Services.IOrderDetailService)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="orderDetailService"></param>
+            <param name="validatorService"></param>
+        </member>
+        <member name="M:ShopApi.Controllers.OrderDetailController.GetAllOrderDetailsAsync(System.Int32,System.Int32)">
+            <summary>
+            Get All Order Details
+            </summary>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <returns>All the detail paginated</returns>
+        </member>
+        <member name="M:ShopApi.Controllers.OrderDetailController.GetOrderDetailByIdAsync(System.Int32)">
+            <summary>
+            Get Order Detail by Id
+            </summary>
+            <param name="id"></param>
+            <returns>Get a specific detail filter by id</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:ShopApi.Controllers.OrderDetailController.UpdateOrderDetailById(Domain.DTOs.OrderDetailDTO,System.Int32)">
+            <summary>
+            Update Order Detail
+            </summary>
+            <param name="orderDetailDTO"></param>
+            <param name="id"></param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:ShopApi.Controllers.OrderDetailController.DeleteOrderDetailAsync(System.Int32)">
+            <summary>
+            Delete Order Detail
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="T:ShopApi.Controllers.ProductController">
+            <summary>
+            Product Controller
+            </summary>
+        </member>
+        <member name="M:ShopApi.Controllers.ProductController.#ctor(Service.Services.IProductService,Service.Services.IValidatorService{Domain.Entities.OrderDetail})">
+            <summary>
+            Constructor
+            </summary>
+            <param name="productService"></param>
+            <param name="validatorService"></param>
+        </member>
+        <member name="M:ShopApi.Controllers.ProductController.GetAllProductsAsync(System.Int32,System.Int32)">
+            <summary>
+            Get All Products
+            </summary>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <returns>All products paginated</returns>
+        </member>
+        <member name="M:ShopApi.Controllers.ProductController.GetProductByIdAsync(System.Int32)">
+            <summary>
+            Get Product By ProductId
+            </summary>
+            <param name="id"></param>
+            <returns>A product filter by ProductId</returns>
+        </member>
+        <member name="M:ShopApi.Controllers.ProductController.CreateProductAsync(Domain.DTOs.ProductDTO,System.Collections.Generic.List{System.Int32})">
+            <summary>
+            Create Product 
+            </summary>
+            <param name="productDTO"></param>
+            <param name="categoryIds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApi.Controllers.ProductController.UpdateProductAsync(Domain.DTOs.ProductDTO,System.Int32)">
+            <summary>
+            Update Product
+            </summary>
+            <param name="productDTO"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApi.Controllers.ProductController.DeleteProductAsync(System.Int32)">
+            <summary>
+            Delete product
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApi.Controllers.ProductController.SearchProducts(System.String,System.Int32,System.Int32)">
+            <summary>
+            Searche products
+            </summary>
+            <param name="searchItem"></param>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <returns>Products finded</returns>
+        </member>
+        <member name="T:ShopApi.Controllers.UserController">
+            <summary>
+            User Controller
+            </summary>
+        </member>
+        <member name="M:ShopApi.Controllers.UserController.#ctor(Service.Services.IUserService,Service.Services.ITokenService)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="service"></param>
+            <param name="tokenService"></param>
+        </member>
+        <member name="M:ShopApi.Controllers.UserController.Register(Domain.DTOs.RegisterDTO)">
+            <summary>
+            Register user
+            </summary>
+            <param name="registerUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApi.Controllers.UserController.Login(Domain.DTOs.RegisterDTO)">
+            <summary>
+            Login
+            </summary>
+            <param name="registerUser"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

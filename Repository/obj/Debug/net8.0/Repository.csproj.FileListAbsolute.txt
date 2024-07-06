@@ -1,0 +1,15 @@
+D:\dotnet\ShopAppProject\SolutionShopApi\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+D:\dotnet\ShopAppProject\SolutionShopApi\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\ShopAppProject\SolutionShopApi\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+D:\dotnet\ShopAppProject\SolutionShopApi\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+D:\dotnet\ShopAppProject\SolutionShopApi\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+D:\dotnet\ShopAppProject\SolutionShopApi\Repository\bin\Debug\net8.0\Repository.deps.json
+D:\dotnet\ShopAppProject\SolutionShopApi\Repository\bin\Debug\net8.0\Repository.dll
+D:\dotnet\ShopAppProject\SolutionShopApi\Repository\bin\Debug\net8.0\Repository.pdb
+D:\dotnet\ShopAppProject\SolutionShopApi\Repository\bin\Debug\net8.0\Domain.dll
+D:\dotnet\ShopAppProject\SolutionShopApi\Repository\bin\Debug\net8.0\Domain.pdb
+D:\dotnet\ShopAppProject\SolutionShopApi\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date
+D:\dotnet\ShopAppProject\SolutionShopApi\Repository\obj\Debug\net8.0\Repository.dll
+D:\dotnet\ShopAppProject\SolutionShopApi\Repository\obj\Debug\net8.0\refint\Repository.dll
+D:\dotnet\ShopAppProject\SolutionShopApi\Repository\obj\Debug\net8.0\Repository.pdb
+D:\dotnet\ShopAppProject\SolutionShopApi\Repository\obj\Debug\net8.0\ref\Repository.dll

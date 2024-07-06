@@ -1,0 +1,14 @@
+D:\dotnet\ShopAppProject\SolutionShopApi\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\dotnet\ShopAppProject\SolutionShopApi\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\ShopAppProject\SolutionShopApi\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\dotnet\ShopAppProject\SolutionShopApi\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\dotnet\ShopAppProject\SolutionShopApi\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\dotnet\ShopAppProject\SolutionShopApi\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\dotnet\ShopAppProject\SolutionShopApi\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+D:\dotnet\ShopAppProject\SolutionShopApi\Domain\bin\Debug\net8.0\Domain.dll
+D:\dotnet\ShopAppProject\SolutionShopApi\Domain\bin\Debug\net8.0\Domain.pdb
+D:\dotnet\ShopAppProject\SolutionShopApi\Domain\obj\Debug\net8.0\Domain.dll
+D:\dotnet\ShopAppProject\SolutionShopApi\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\dotnet\ShopAppProject\SolutionShopApi\Domain\obj\Debug\net8.0\Domain.pdb
+D:\dotnet\ShopAppProject\SolutionShopApi\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+D:\dotnet\ShopAppProject\SolutionShopApi\Domain\obj\Debug\net8.0\ref\Domain.dll
