@@ -32,9 +32,9 @@ jobs:
         run: dotnet publish ./ShopApi/ShopApi.csproj --configuration Release --output ./publish
 
       # deploy to azure
-      # - name: Azure WebApp Deploy
-      #  uses: azure/webapps-deploy@v2
-      # with:
-      # app-name: ${{ env.AZURE_WEBAPP_NAME }}
-      # publish-profile: ${{ secrets.WEB_PUBLISH_SECRET }} need to change the publish secret
-      # package: ./publish
+      - name: Azure WebApp Deploy
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          publish-profile: ${{ secrets.WEB_PUBLISH_SECRET }} need to change the publish secret
+          package: ./publish
