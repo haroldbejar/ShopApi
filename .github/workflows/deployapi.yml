@@ -1,0 +1,40 @@
+# github action to deploy manually an webapp to azure
+
+name: Deploy WebApp
+
+on:
+  workflow_dispatch:
+
+env:
+  AZURE_WEBAPP_NAME: "app-shopapi"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup .Net Core
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Install dependencies
+        run: dotnet restore ./ShopApi/ShopApi.csproj
+
+      - name: Build
+        run: dotnet build ./ShopApi/ShopApi.csproj --configuration Release --no-restore
+
+      - name: Run Unit Test
+        run: dotnet test ./ShopApiTests/ShopApiTests.csproj
+
+      # publish
+      - name: Publish
+        run: dotnet publish ./ShopApi/ShopApi.csproj --configuration Release --output ./publish
+
+      # deploy to azure
+      - name: Azure WebApp Deploy
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          publish-profile: ${{ secrets.WEB_PUBLISH_SECRET }} need to change the publish secret
+          package: ./publish
